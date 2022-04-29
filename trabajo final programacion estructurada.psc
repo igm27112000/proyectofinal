@@ -2,7 +2,6 @@ proceso ventasdeherramientas
 	// IGNACIO SIERRA 21-EIIN-1-122
 	//Declaracion de variables 
 	
-	Definir opc Como Entero
 	Definir precio Como Entero
 	Definir cantidad Como Entero
 	Definir total Como Entero
@@ -134,6 +133,7 @@ proceso ventasdeherramientas
 	  Escribir "********factura********"
 	  Escribir "tienda herramientas martinez"
 	  Escribir nombrecliente
+	  Escribir "precio por unidad RD$",precio
 	  Escribir  "su cuenta total es de : RD$",total
 	  Escribir "gracias por su compra"
 	  Escribir "telefono"
